@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Magical-text</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>ENTER YOUR PROMPT</h1>
+        <input class="input" type="text" placeholder="enter your prompt" id="input">
+        <div class="btn-flex">
+            <button onclick="capital()">ABC</button>
+            <button onclick="lower()">abc</button>
+            <button onclick="sentence()">Abc</button>
+            <button onclick="bolder()"><b>ABC</b></button>
+            <button onclick="italic()"><i>abc</i></button>
+            <button onclick="underline()"><u>ABC</u></button>
+        </div>
+        <div class="opt-container" id="output">
+            <p>PROMPT OUTPUT</p>
+        </div>
+
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
